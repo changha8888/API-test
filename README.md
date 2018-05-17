@@ -6,7 +6,9 @@
     DB_DATABASE=test_api
     DB_USERNAME=root
     DB_PASSWORD=
-4. Run command php artisan serve.
+4. Run command: composer update,
+
+5. Run command php artisan serve.
 Use PostMan test api:
 -localhost:8000/api/auth/register
   +method: post.
